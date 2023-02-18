@@ -70,7 +70,7 @@ namespace Lecture_Example___Date_Picker_and_DateTime
             if (isSelectedDpDate && isSelectedCalDate)
             {
                 TimeSpan DatePickerAndCalender = CalDate.SelectedDate.Value - dpDate.SelectedDate.Value;
-                rtbDisplay.Text += $"Date differences between Calender and Picker: {DatePickerAndCalender.Days} ";
+                rtbDisplay.Text += $"Date differences between Calendar and Picker: {DatePickerAndCalender.Days} Days ";
             }
             else
             {
